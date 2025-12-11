@@ -106,19 +106,6 @@ AlphaGraph-refined/
 └── requirements.txt         # Python dependencies
 ```
 
-## Key Fixes from Original Code
-
-1. **Fixed indentation errors** in `main.py` and `ingest.py`
-2. **Removed duplicate code** in `graph.py`
-3. **Added missing imports** throughout all modules
-4. **Created missing `store.py`** module with VectorStore implementation
-5. **Completed incomplete `node.py`** with all required classes
-6. **Fixed `main()` call** at the end of `main.py`
-7. **Corrected model name** in `config.yaml` (o4-mini → gpt-4o-mini)
-8. **Added proper error handling** and fallback mechanisms
-9. **Fixed indentation** in the `do_query()` function output formatting
-10. **Added comprehensive docstrings** for better code understanding
-
 ## Dependencies
 
 - `langgraph`: For building the multi-stage pipeline
